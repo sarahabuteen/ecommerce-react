@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$default-font-family: "Overpass", sans-serif !default;
+
+/// Colors
+/// @type Color
+$bg-color: #efeae7 !default;
+$box-bg-color: #f9f3f0 !default;
+$dark-color: #251800 !default;
+$text-color: #7d776b !default;
+$form-color: #d4cfc4 !default;
+$white-color: #ffffff !default;
+$red-color: #ea001b !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+$base-url: "/assets/" !default;

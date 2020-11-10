@@ -1,0 +1,14 @@
+/**
+ * Basic typography style for text
+ */
+
+#root,
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: $default-font-family;
+}
