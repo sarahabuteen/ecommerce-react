@@ -1,3 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.main-btn {
+    background-color: $dark-color;
+    border-radius: 0px;
+    color: $white-color;
+    height: 45px;
+    min-width: 150px;
+    &:hover {
+      border: 1px solid $dark-color;
+      background-color: transparent;
+      color: $dark-color;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the form component.
+// -----------------------------------------------------------------------------
+
+.form-control:focus,
+.form-control:focus,
+.form-control:hover {
+  outline: 0;
+  box-shadow: none;
+  border-color: $form-color;
+}

@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the input component.
+// -----------------------------------------------------------------------------
+
+.form-group {
+    position: relative;
+    label {
+      color: $text-color;
+      font-size: 15px;
+      &.required {
+        &:after {
+          content: " *";
+          color: $red-color;
+        }
+      }
+    }
+    .form-control {
+      border: 2px solid $form-color;
+      border-radius: 0px;
+      background-color: transparent;
+      height: 45px;
+    }
+    svg {
+      color: $text-color;
+      position: absolute;
+      font-size: 21px;
+      right: 15px;
+      top: 55%;
+      transform: translateY(-55%);
+    }
+    &.input-error {
+      .form-control {
+        border: 2px solid $red-color;
+      }
+      small {
+        color: $red-color;
+      }
+    }
+  }
+  
