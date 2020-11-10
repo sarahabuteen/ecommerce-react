@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the wrapper of the site/application.
+// -----------------------------------------------------------------------------
+
+.content-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .popup-container {
+      background-color: $box-bg-color;
+      border-radius: 0px;
+      box-shadow: 0 25px 150px 0 rgba(37, 24, 0, 0.1);
+      padding: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      margin: 0 auto;
+      &-sm {
+        width: 400px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .content-wrapper {
+      .popup-container {
+        &-sm {
+          width: 100%;
+        }
+      }
+    }
+  }
+  
