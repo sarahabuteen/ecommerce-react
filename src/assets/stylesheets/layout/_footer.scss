@@ -1,3 +1,37 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+footer {
+    padding: 15px 15px 30px 15px;
+    ul {
+      li {
+        cursor: pointer;
+        &.list-inline-item:not(:last-child) {
+          margin-right: 0.8rem;
+        }
+        svg {
+          height: 19px;
+          width: 19px;
+          color: $text-color;
+          &:hover {
+            color: $dark-color;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    footer {
+      padding: 0px 0px 20px 0px;
+      ul {
+        margin: 0 auto;
+      }
+      p {
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+  }
+  

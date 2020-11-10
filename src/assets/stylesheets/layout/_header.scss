@@ -1,3 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+header {
+    padding: 30px 15px 15px 15px;
+    .logo {
+      height: 50px;
+      object-fit: contain;
+    }
+    ul {
+      li {
+        cursor: pointer;
+        &.list-inline-item:not(:last-child) {
+          margin-right: 0.8rem;
+        }
+        svg {
+          height: 21px;
+          width: 21px;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    header {
+      padding: 20px 0px 0px 0px;
+    }
+  }
+  

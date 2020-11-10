@@ -1,5 +1,14 @@
-function App() {
-  return <h1>Test</h1>;
-}
+import React, { Component, Fragment } from "react";
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Header />
+        <Footer />
+      </Fragment>
+    );
+  }
+}

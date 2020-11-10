@@ -12,3 +12,20 @@ body {
   background-color: $bg-color;
   font-family: $default-font-family;
 }
+
+.text-color {
+  color: $text-color;
+}
+
+.dark-text-color {
+  color: $dark-color;
+}
+
+.title-text {
+  color: $dark-color;
+  font-weight: 700;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
